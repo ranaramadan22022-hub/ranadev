@@ -1,27 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coffee</title>
-    <!-- css -->
-    <link rel="stylesheet" href="style.css">
-<!-- google fonts links for icon -->
-    <link href="https://fonts.googleapis.com/css2?family=material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tefal Store</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-        <a href="#" class="logo">coffee <span>.</span></a>
-            <ul class="menu_links">
-              <li> <a href="#">Home</a></li>
-              <li><a href="#">products</a></li>
-              <li><a href="#">testimonials</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-            <img src="coffee.png" alt="coffee" class="coffee_img">
-            </nav>
-    </header>
+
+<header>
+  <h1>🍳 Tefal Cookware</h1>
+  <div class="cart">
+    🛒 السلة: <span id="cart-count">0</span> | 
+    الإجمالي: <span id="total-price">0</span> ج
+  </div>
+</header>
+
+<section class="products">
+
+  <div class="product">
+    <img src="طاسه webp.webp" />
+    <h2>طقم تيفال أسود</h2>
+    <p>سيراميك غير لاصق</p>
+    <span>1200 ج</span>
+    <button onclick="addToCart(1200)">أضف للسلة</button>
+  </div>
+
+  <div class="product">
+    <img src="طاسه 2.webp" />
+    <h2>طاسه تيفال </h2>
+    <p>مقاوم للخدش</p>
+    <span>1500 ج</span>
+    <button onclick="addToCart(1500)">أضف للسلة</button>
+  </div>
+
+  <div class="product">
+    <img src="طاسه برضوا.webp" />
+    <h2>طاسه تيفال </h2>
+    <p>توزيع حراري ممتاز</p>
+    <span>1800 ج</span>
+    <button onclick="addToCart(1800)">أضف للسلة</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Tefal Kitchen Store</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
