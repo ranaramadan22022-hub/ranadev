@@ -1,53 +1,111 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tefal Store</title>
-  <link rel="stylesheet" href="style.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rana Ramadan - Portfolio & CV</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #ffe6f0; color: #333; }
+    header { background-color: #ffb3d9; padding: 50px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+    section { padding: 30px 20px; }
+    h2 { color: #ff3399; margin-bottom: 15px; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    a { color: #ff3399; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .projects { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; }
+    .project-card { background-color: #fff0f5; border: 2px solid #ff99cc; border-radius: 12px; width: 250px; padding: 20px; text-align: center; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer; }
+    .project-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    footer { text-align: center; padding: 20px; background-color: #ffb3d9; margin-top: 20px; }
+</style>
 </head>
 <body>
 
 <header>
-  <h1>🍳 Tefal Cookware</h1>
-  <div class="cart">
-    🛒 السلة: <span id="cart-count">0</span> | 
-    الإجمالي: <span id="total-price">0</span> ج
-  </div>
+    <h1>Rana Ramadan</h1><br>
+    <p>Junior Front-End Developer | HTML, CSS, JavaScript | Learning React</p>
+    <p>From a village near Tanta, Egypt</p>
+    <p>📞 01228521942 | 📧 ranaramadan22022@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/ranaramadan22022-hub/ranadev" target="_blank">ranadev</a></p>
 </header>
 
-<section class="products">
+<section>
+<h2>About Me</h2>
+<p>Hello! I'm a Junior Front-End Developer from Egypt, passionate about creating beautiful and responsive websites. Fast learner, highly motivated to enhance skills in JavaScript and React, and contribute effectively to real projects.</p>
+</section>
 
-  <div class="product">
-    <img src="طاسه webp.webp" />
-    <h2>طقم تيفال أسود</h2>
-    <p>سيراميك غير لاصق</p>
-    <span>1200 ج</span>
-    <button onclick="addToCart(1200)">أضف للسلة</button>
-  </div>
+<section>
+<h2>Skills</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3 (Flexbox, Grid, Responsive Design)</li>
+<li>JavaScript (Basics)</li>
+<li>React (Basics) – Learning</li>
+<li>WordPress (Basic)</li>
+<li>Dart (Academic)</li>
+<li>Git & GitHub Basics</li>
+</ul>
+</section>
 
-  <div class="product">
-    <img src="طاسه 2.webp" />
-    <h2>طاسه تيفال </h2>
-    <p>مقاوم للخدش</p>
-    <span>1500 ج</span>
-    <button onclick="addToCart(1500)">أضف للسلة</button>
-  </div>
+<section>
+<h2>Projects</h2>
+<div class="projects">
+<div class="project-card" onclick="showAlert('Accessories Store')">
+<h3>Accessories Store</h3>
+<a href="https://github.com/ranaramadan22022-hub/ranadev" target="_blank">View on GitHub</a>
+</div>
+<div class="project-card" onclick="showAlert('Mobile Store')">
+<h3>Mobile Store</h3>
+<a href="https://github.com/ranaramadan22022-hub/ranadev" target="_blank">View on GitHub</a>
+</div>
+<div class="project-card" onclick="showAlert('Coffee Website')">
+<h3>Coffee Website</h3>
+<a href="https://github.com/ranaramadan22022-hub/ranadev" target="_blank">View on GitHub</a>
+</div>
+<div class="project-card" onclick="showAlert('Button Hover')">
+<h3>Button Hover Effect</h3>
+<a href="https://github.com/ranaramadan22022-hub/ranadev" target="_blank">View on GitHub</a>
+</div>
+</div>
+</section>
 
-  <div class="product">
-    <img src="طاسه برضوا.webp" />
-    <h2>طاسه تيفال </h2>
-    <p>توزيع حراري ممتاز</p>
-    <span>1800 ج</span>
-    <button onclick="addToCart(1800)">أضف للسلة</button>
-  </div>
+<section>
+<h2>Education</h2>
+<ul>
+<li>Studying at Tanta University, Faculty of Arts, IT Department, Third Year</li>
+<li>Studied web development including HTML, CSS, JavaScript basics, WordPress, Ui Ux basics , and Dart</li>
+</ul>
+</section>
 
+<section>
+<h2>Soft Skills</h2>
+<ul>
+<li>Fast learner</li>
+<li>Good communication</li>
+<li>Team player</li>
+<li>Attention to detail</li>
+</ul>
+</section>
+
+<section>
+<h2>Languages</h2>
+<ul>
+<li>Arabic — Native</li>
+<li>English — Good</li>
+</ul>
 </section>
 
 <footer>
-  <p>© 2026 Tefal Kitchen Store</p>
+&copy; 2026 Rana Ramadan
 </footer>
 
-<script src="script.js"></script>
+<script>
+function showAlert(projectName) {
+    alert(`You clicked on ${projectName} project!`);
+}
+</script>
+
 </body>
 </html>
