@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background:rgb(252, 220, 226);
+  background: rgb(234, 211, 190);
 }
 
 /* Header */
 header {
-  background: rgb(254, 166, 181);
+  background: #c9b38a;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -21,26 +21,25 @@ nav a {
 }
 
 nav a:hover {
-  color: #f30dd4;
+  color: rgba(36, 22, 4, 0.594);
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   text-align: center;
   padding: 80px 20px;
-  /* background: linear-gradient(to right, #ff758c, #ff7eb3); */
-  background:url(dress.avif) no-repeat center ;
-  color: rgb(235, 49, 170);
+  background:url(accessories7.webp) no-repeat center;
+  color: #aa5a04;
 }
 
 .hero button {
   padding: 10px 20px;
   border: none;
-  background: wheat;
-  color: #d11a8b;
+  background: #aa5a04;
+  color: white;
   font-weight: bold;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Products */
@@ -57,10 +56,15 @@ nav a:hover {
 }
 
 .card {
-  background: rgb(246, 169, 227);
+  background: white;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px #e177d21a;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card img {
@@ -72,19 +76,21 @@ nav a:hover {
   margin-top: 10px;
   padding: 8px 15px;
   border: none;
-  background: rgb(235, 161, 186)205, 130, 142);
-  color: white;
+  background: gold;
+  color: black;
   cursor: pointer;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .card button:hover {
-  background: rgb(206, 39, 175);
+  background: #2b2b2b;
+  color: white;
 }
 
 /* Footer */
 footer {
-  background: #ed8ad1;
+  background: #2b2b2b;
   color: white;
   text-align: center;
   padding: 15px;
