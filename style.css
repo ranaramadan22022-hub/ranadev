@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: rgb(234, 211, 190);
+  background: #c0d9f8;
 }
 
 /* Header */
 header {
-  background: #c9b38a;
+  background: #7095f3;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -21,22 +21,22 @@ nav a {
 }
 
 nav a:hover {
-  color: rgba(36, 22, 4, 0.594);
+  color: #00c6ff;
 }
 
 /* Hero */
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background:url(accessories7.webp) no-repeat center;
-  color: #aa5a04;
+  background: url(iphone5.jfif) no-repeat;
+  color: black;
 }
 
 .hero button {
   padding: 10px 20px;
   border: none;
-  background: #aa5a04;
-  color: white;
+  background: white;
+  color: #0072ff;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
@@ -76,21 +76,20 @@ nav a:hover {
   margin-top: 10px;
   padding: 8px 15px;
   border: none;
-  background: gold;
-  color: black;
+  background: #0072ff;
+  color: white;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .card button:hover {
-  background: #2b2b2b;
-  color: white;
+  background: #0a0f1c;
 }
 
 /* Footer */
 footer {
-  background: #2b2b2b;
+  background: #0a0f1c;
   color: white;
   text-align: center;
   padding: 15px;
