@@ -1,5 +1,5 @@
 <h1 align="left">👋 Hello! I'm Rana Ramadan</h1>
-<h3 align="left">Front-End Developer |Full Stack Developer | Passionate About Technology & UI Development</h3>
+<h3 align="left">Front-End Developer | Full Stack Developer | Passionate About Technology & UI Development</h3>
 
 <p align="left">
   <a href="https://github.com/YOUR_USERNAME">
